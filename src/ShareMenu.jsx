@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 function ShareMenu() {
   const [items, setItems] = useState([
-    { id: 1, name: 'Item 1' },
+    { id: 1, name: 'Item 2' },
     { id: 2, name: 'Item 2' },
-    { id: 3, name: 'Item 3' }
+    { id: 3, name: 'Item 2' }
   ]);
   const [input, setInput] = useState('');
   const [editingId, setEditingId] = useState(null);
