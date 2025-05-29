@@ -66,7 +66,7 @@ function ShareMenu() {
       {/* Add Item Form */}
       <form onSubmit={handleAdd} className="flex gap-2 mb-6">
         <input
-          className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+          className="flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-400 transition"
           type="text"
           value={input}
           onChange={e => setInput(e.target.value)}
